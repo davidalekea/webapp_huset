@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huset-KBH</title>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="manifest.json">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#2c2b25">
+<meta name="theme-color" content="#ffffff">
+
+    <link href="maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     <div id='menu'>
+      <template id="linkTemplate">
+         <a href="#">Item 1</a>
+        </template>
+    </div>
+    <div class="social-icons">
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-instagram"></span>
+    </div>
+</div>
+<div class='head'>
+    <span onclick="openNav()">&#9776; </span>
+    <a href="https://huset-kbh.dk/"><img id="husetLogo" src="default-image.png"></a>
+</div>
+
+  <main>
+    <section id="list">
+        <div></div>
+    </section>
+    <template id="eventTemplate">
+        <article class="movie">
+          <h1></h1>
+          <h2></h2>
+          <h3></h3>
+          <img id="featured" src="#">
+          <div class="excerpt"></div>
+          <p class="price"><span></span></p>
+          <p><a class="read-more" href="movie.html?id=">READ MORE</a></p>
+        </article>
+    </template>
+</main>
+      <footer>
+      <h1>made by davidale.design</h1>
+      </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
